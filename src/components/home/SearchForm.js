@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {fetchMovies,setLoading} from '../../actions/searchActions';
 import { Link } from 'react-router-dom';
+import Logo from './WebsiteLogo.png';
  
 
 
@@ -26,9 +27,8 @@ export class SearchForm extends Component {
         return (
             <div className="jumbotron jumbotron-fluid mt-5 text-center">
                 <div className="container">
-                    <h1 className="display-4 mb-3">
-                        <i className="fa fa-search" />start
-                    </h1>
+                <img className="webSiteLogo"src={Logo} alt=""/>
+                <b id="emailHelp" className="form-text text-muted text-dark">World of movies and Series at a single Click</b>
                     <form id="searchForm" onSubmit={this.onSubmit}>
 
                         {/* <input type="text" className="form-control" placeholder="Come on Folks start Your Search" name="searchText"
@@ -36,12 +36,13 @@ export class SearchForm extends Component {
                         <button type="submit" className="btn btn-primary btn-bg mt-3"> SEARCH</button>
                         <small id="emailHelp" className="form-text text-muted">World of movies and Series at a single Click</small> */}
                         
-                        <div class="container h-100">
+                        
       <div className="d-flex justify-content-center h-100">
         <div className="searchbar">
           <input className="search_input" type="text" name="" placeholder="Come on Folks start Your Search...." onChange={this.onChange}/>
-          <button type="submit" className="search_icon"></button>
-        </div>
+          <button type="submit" className="search_icon"><i className="fa fa-search"/></button>
+          
+        
       </div>
       </div>
       </form>

@@ -5,7 +5,7 @@ import Footer from './components/layout/Footer';
 import {Route} from 'react-router-dom';
 import Landing from './components/home/Landing';
 import MovieDetails from './components/home/MovieDetails';
-import {HashRouter as Router} from 'react-router-dom';
+//import {HashRouter as Router} from 'react-router-dom';
 import './App.css';
 
 

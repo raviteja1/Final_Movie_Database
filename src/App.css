@@ -1,8 +1,8 @@
 .jumbotron{
     margin-top: 80px;
-    background-image: url(https://wallpaperaccess.com/full/191520.jpg);
+    /* background-image: url(https://wallpaperaccess.com/full/191520.jpg);
     background-attachment: fixed;
-  background-position: center;
+  background-position: center; */
 }
 
 
@@ -18,7 +18,7 @@
     margin-bottom: auto;
     margin-top: auto;
     height: 60px;
-    background-color: #353b48;
+    background-color: #070400;
     border-radius: 30px;
     padding: 10px;
     }
@@ -36,13 +36,13 @@
 
     .searchbar:hover > .search_input{
     padding: 0 10px;
-    width: 450px;
+    width: 850px;
     caret-color:red;
     transition: width 0.4s linear;
     }
 
     .searchbar:hover > .search_icon{
-    background: rgb(238, 12, 12);
+    background: rgb(226, 215, 224);
     color: #e74c3c;
     }
 
@@ -56,10 +56,10 @@
     border-radius: 50%;
     color:rgb(224, 215, 215);
     text-decoration:none;
-    background-color: rgb(236, 5, 5);
+    background-color: rgb(234, 240, 241);
     }
 
-    @media only screen and (max-device-width: 776px) {
+    @media only screen and (max-device-width: 500px) {
 
         .searchbar{
             margin-bottom: auto;
@@ -71,7 +71,7 @@
             }
         
             .search_input{
-            color: white;
+            color: rgb(228, 217, 217);
             border: 0;
             outline: 0;
             background: none;
@@ -83,14 +83,14 @@
         
             .searchbar:hover > .search_input{
             padding: 0 10px;
-            width: 150px;
+            width: 200px;
             caret-color:red;
             transition: width 0.4s linear;
             }
         
             .searchbar:hover > .search_icon{
             background: rgb(238, 12, 12);
-            color: #e74c3c;
+            color: #dd2525;
             }
         
             .search_icon{
@@ -101,18 +101,21 @@
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            color:rgb(224, 215, 215);
+            color:rgb(214, 12, 12);
             text-decoration:none;
             background-color: rgb(236, 5, 5);
             }
+            .webSiteLogo{
+                width:300px;
+                height: 40px;
+            }
 
-            @media only screen and (max-device-width: 350px) {
-
+            @media only screen and (max-width: 480px) and (min-width: 350px)  {
                 .searchbar{
                     margin-bottom: auto;
                     margin-top: auto;
                     height: 60px;
-                    background-color: #353b48;
+                    background-color: #02050c;
                     border-radius: 30px;
                     padding: 10px;
                     }
@@ -130,7 +133,7 @@
                 
                     .searchbar:hover > .search_input{
                     padding: 0 10px;
-                    width: 50px;
+                    width: 200px;
                     caret-color:red;
                     transition: width 0.4s linear;
                     }
@@ -152,7 +155,59 @@
                     text-decoration:none;
                     background-color: rgb(236, 5, 5);
                     }
-                }
+
+            }
+
+             @media only screen and (max-width: 480px) and (min-width: 768px)  {
+
+                .searchbar{
+                    margin-bottom: auto;
+                    margin-top: auto;
+                    height: 60px;
+                    background-color: #02050c;
+                    border-radius: 30px;
+                    padding: 10px;
+                    }
+                
+                    .search_input{
+                    color: white;
+                    border: 0;
+                    outline: 0;
+                    background: none;
+                    width: 0;
+                    caret-color:transparent;
+                    line-height: 40px;
+                    transition: width 0.4s linear;
+                    }
+                
+                    .searchbar:hover > .search_input{
+                    padding: 0 10px;
+                    width: 300px;
+                    caret-color:red;
+                    transition: width 0.4s linear;
+                    }
+                
+                    .searchbar:hover > .search_icon{
+                    background: rgb(238, 12, 12);
+                    color: #e74c3c;
+                    }
+                
+                    .search_icon{
+                    height: 40px;
+                    width: 40px;
+                    float: right;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    color:rgb(224, 215, 215);
+                    text-decoration:none;
+                    background-color: rgb(236, 5, 5);
+                    }
+                } 
+
+            
+                
         
     }
 
