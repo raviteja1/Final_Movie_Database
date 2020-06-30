@@ -25,7 +25,7 @@ export class SearchForm extends Component {
     };
     render() {
         return (
-            <div className="jumbotron jumbotron-fluid mt-5 text-center">
+            <div className="jumbotron mt-5 text-center">
                 <div className="container">
                 <img className="webSiteLogo"src={Logo} alt=""/>
                 <b id="emailHelp" className="form-text text-muted text-dark">World of movies and Series at a single Click</b>

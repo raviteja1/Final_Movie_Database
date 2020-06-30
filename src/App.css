@@ -1,18 +1,10 @@
 .jumbotron{
     margin-top: 80px;
+    background-color: whitesmoke !important;
     /* background-image: url(https://wallpaperaccess.com/full/191520.jpg);
     background-attachment: fixed;
   background-position: center; */
 }
-
-
-/* body,html{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background: #e74c3c !important;
-    } */
 
     .searchbar{
     margin-bottom: auto;
@@ -29,7 +21,7 @@
     outline: 0;
     background: none;
     width: 0;
-    caret-color:transparent;
+    caret-color:#FF9900;
     line-height: 40px;
     transition: width 0.4s linear;
     }
@@ -37,13 +29,13 @@
     .searchbar:hover > .search_input{
     padding: 0 10px;
     width: 850px;
-    caret-color:red;
+    caret-color:#FF9900;
     transition: width 0.4s linear;
     }
 
     .searchbar:hover > .search_icon{
-    background: rgb(226, 215, 224);
-    color: #e74c3c;
+        background: #FF9900;
+        color: #0c0b0b;
     }
 
     .search_icon{
@@ -54,29 +46,29 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color:rgb(224, 215, 215);
+    color:rgb(19, 16, 16);
     text-decoration:none;
-    background-color: rgb(234, 240, 241);
+    background-color:#FF9900;
     }
 
-    @media only screen and (max-device-width: 500px) {
+    @media only screen and (max-device-width: 600px) {
 
         .searchbar{
             margin-bottom: auto;
             margin-top: auto;
-            height: 60px;
-            background-color: #353b48;
+            height: auto;
+            background-color: #070b14;
             border-radius: 30px;
             padding: 10px;
             }
         
             .search_input{
-            color: rgb(228, 217, 217);
+            color: white;
             border: 0;
             outline: 0;
             background: none;
             width: 0;
-            caret-color:transparent;
+            caret-color:#FF9900;
             line-height: 40px;
             transition: width 0.4s linear;
             }
@@ -84,13 +76,13 @@
             .searchbar:hover > .search_input{
             padding: 0 10px;
             width: 200px;
-            caret-color:red;
+            caret-color:#FF9900;
             transition: width 0.4s linear;
             }
         
             .searchbar:hover > .search_icon{
-            background: rgb(238, 12, 12);
-            color: #dd2525;
+            background: #FF9900;
+            color: #0c0b0b;
             }
         
             .search_icon{
@@ -101,20 +93,23 @@
             justify-content: center;
             align-items: center;
             border-radius: 50%;
-            color:rgb(214, 12, 12);
+            color:#141412;
             text-decoration:none;
-            background-color: rgb(236, 5, 5);
+            background-color: #FF9900
             }
             .webSiteLogo{
-                width:300px;
+                width:230px;
                 height: 40px;
+                justify-content:'center';
+                position: relative;
             }
+        }
 
-            @media only screen and (max-width: 480px) and (min-width: 350px)  {
+            @media only screen and (min-width: 601px) and (max-width: 1000px)  {
                 .searchbar{
                     margin-bottom: auto;
                     margin-top: auto;
-                    height: 60px;
+                    height: auto;
                     background-color: #02050c;
                     border-radius: 30px;
                     padding: 10px;
@@ -126,21 +121,21 @@
                     outline: 0;
                     background: none;
                     width: 0;
-                    caret-color:transparent;
+                    caret-color:#FF9900;
                     line-height: 40px;
                     transition: width 0.4s linear;
                     }
                 
                     .searchbar:hover > .search_input{
                     padding: 0 10px;
-                    width: 200px;
-                    caret-color:red;
+                    width: 420px;
+                    caret-color:#FF9900;
                     transition: width 0.4s linear;
                     }
                 
                     .searchbar:hover > .search_icon{
-                    background: rgb(238, 12, 12);
-                    color: #e74c3c;
+                    background:#FF9900;
+                    color: #0f0e0e;
                     }
                 
                     .search_icon{
@@ -151,65 +146,19 @@
                     justify-content: center;
                     align-items: center;
                     border-radius: 50%;
-                    color:rgb(224, 215, 215);
+                    color:rgb(14, 4, 4);
                     text-decoration:none;
-                    background-color: rgb(236, 5, 5);
+                    background-color: #FF9900;
                     }
 
-            }
+            } 
 
-             @media only screen and (max-width: 480px) and (min-width: 768px)  {
-
-                .searchbar{
-                    margin-bottom: auto;
-                    margin-top: auto;
-                    height: 60px;
-                    background-color: #02050c;
-                    border-radius: 30px;
-                    padding: 10px;
-                    }
-                
-                    .search_input{
-                    color: white;
-                    border: 0;
-                    outline: 0;
-                    background: none;
-                    width: 0;
-                    caret-color:transparent;
-                    line-height: 40px;
-                    transition: width 0.4s linear;
-                    }
-                
-                    .searchbar:hover > .search_input{
-                    padding: 0 10px;
-                    width: 300px;
-                    caret-color:red;
-                    transition: width 0.4s linear;
-                    }
-                
-                    .searchbar:hover > .search_icon{
-                    background: rgb(238, 12, 12);
-                    color: #e74c3c;
-                    }
-                
-                    .search_icon{
-                    height: 40px;
-                    width: 40px;
-                    float: right;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border-radius: 50%;
-                    color:rgb(224, 215, 215);
-                    text-decoration:none;
-                    background-color: rgb(236, 5, 5);
-                    }
-                } 
+             
 
             
                 
         
-    }
+
 
 
     
