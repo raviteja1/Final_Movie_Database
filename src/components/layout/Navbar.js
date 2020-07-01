@@ -2,8 +2,9 @@ import React from 'react'
 
 function Navbar() {
   return (
+    
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#070b14'}}>
   <a className="navbar-brand text-success" href="#">Navbar</a>
   <button className="navbar-toggler text-success" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -26,7 +27,10 @@ function Navbar() {
   </div>
 </nav>
     </div>
+
+
+
   )
 }
 
-export default Navbar
+export default Navbar;

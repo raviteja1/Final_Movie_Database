@@ -3,11 +3,11 @@ import React from 'react'
 function Footer() {
     return (
         <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{backgroundColor: '#070b14'}}>
         <div className="container">
         <div className="row">
             <div className="col-md-12">
-<div className="footer p-3 mt-4 text-center bg-dark text-light">
+<div className="footer p-3 mt-4 text-center text-light" style={{backgroundColor: '#070b14'}}>
     <span>Developed By</span>&nbsp;
 
 <span className="text-warning font-weight-bold text-warning">Raviteja Thoudishetty</span>
