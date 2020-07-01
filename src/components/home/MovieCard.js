@@ -25,11 +25,11 @@ export class MovieCard extends Component {
       // style={{
       //   backgroundColor: '#41669d',
       // }}
-      style={{ width: '300px', height: '402px'}}
+      style={{ width: '361px', height: '404px'}}
     >
       <div className="col-md-12 mb-5" >
-          <div className="text-center" style={{backgroundColor:'#070400', width: '230px', height: '390px' }}>
-            <img className="" src={movie.Poster} alt="Movie Cover" style={{ width: '230px', height: '300px' }} />
+          <div className="text-center" style={{backgroundColor:'#070400', width: '300px', height: '390px' }}>
+            <img className="" src={movie.Poster} alt="Movie Cover" style={{ width: '300px', height: '300px'}} />
             <h5 className="text-light card-title">
               {movie.Title} - {movie.Year}
             </h5>
