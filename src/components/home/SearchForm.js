@@ -2,10 +2,8 @@ import React, { Component } from 'react';
  import {searchMovie} from '../../actions/searchActions';
 import { connect } from 'react-redux';
 import {fetchMovies,setLoading} from '../../actions/searchActions';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import Logo from './WebsiteLogo.png';
-import Srk from './SRK_left.jpg';
-import PK from './Pk_Right.jpg';
  
 
 
