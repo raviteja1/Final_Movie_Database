@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {fetchSingleMovie,setLoading} from '../../actions/searchActions'
+import { Link } from 'react-router-dom';
 
 export class MovieDetails extends Component {
   componentDidMount(){
@@ -11,10 +12,22 @@ export class MovieDetails extends Component {
     const {movie}=this.props;
 
     return (
-      <React.Fragment>
+      <div>
       <div className="row">
           <div className="col-md-4 card card-body">
             <img src={movie.Poster} className="thumbnail" alt="Poster" />
+            <a
+  href={'https://www.imdb.com/title/'+movie.imdbID}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-primary"
+  style={{backgroundColor:'#070400',color:'#FF9900'}}><strong>View On IMDB</strong>
+  </a>
+  <Link
+  to="/"
+  className="btn btn-default"
+  style={{backgroundColor:'#070400',color:'#FF9900'}}><strong>Go Back To Search</strong>
+  </Link>
           </div>
           <div className="col-md-8">
             <h2 className="mb-4">{movie.Title}</h2>
@@ -40,10 +53,21 @@ export class MovieDetails extends Component {
               <li className="list-group-item">
                 <strong>Actors:</strong> {movie.Actors}
               </li>
+              <li className="list-group-item">
+                <strong>Movie Plot:</strong> {movie.Plot}
+              </li>
             </ul>
           </div>
         </div>
-      </React.Fragment>
+        <div className="row">
+
+  <hr/>
+  
+ 
+</div>
+
+        </div>
+
     )
   }
 }

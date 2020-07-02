@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
-
+import BoycottChinese from './BackCard.jpg';
 import './App.scss';
 
 export class MovieCard extends Component {
@@ -40,10 +40,10 @@ export class MovieCard extends Component {
           </div>
         </div>
     </FrontSide>
-    <BackSide style={{ width: '300px', height: '402px' }}>
+    <BackSide style={{ width: '361px', height: '404px' }}>
     <div className="col-md-12 mb-5">
           <div className="text-center" style={{backgroundColor:'#070400', width: '300px', height: '390px'}}>
-            <img className="" src={movie.Poster} alt="Movie Cover" style={{ width: '300px', height: '390px' }} />
+            <img className="" src={BoycottChinese} alt="Movie Cover" style={{ width: '300px', height: '300px' }} />
             <h5 className="text-light card-title">
               {movie.Title} - {movie.Year}
             </h5>

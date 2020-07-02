@@ -4,6 +4,7 @@ import { connect } from 'react-redux';
 import {fetchMovies,setLoading} from '../../actions/searchActions';
 //import { Link } from 'react-router-dom';
 import Logo from './WebsiteLogo.png';
+import Background from './BG.jpg'
  
 
 
