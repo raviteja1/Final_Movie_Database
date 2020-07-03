@@ -30,7 +30,7 @@ export class MovieDetails extends Component {
   </Link>
           </div>
           <div className="col-md-8">
-            <h2 className="mb-4">{movie.Title}</h2>
+            <h2 className="mb-4" style={{backgroundColor: '#070400',color:'#FF9900'}}>{movie.Title}</h2>
             <ul className="list-group">
               <li className="list-group-item">
                 <strong>Genre:</strong> {movie.Genre}

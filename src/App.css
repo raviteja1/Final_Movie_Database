@@ -1,10 +1,11 @@
 .jumbotron{
     margin-top: 80px;
-    background-color: whitesmoke !important;
+    background-color:#FF9900 !important;
     
-     /* background-image: url(https://wallpaperaccess.com/full/191520.jpg);
+     /* background-image: url(./components/home/BGB.jpg);
     background-attachment: fixed;
-  background-position: center; */
+  background-position: center;
+  background-size: 900px 600px; */
 }
 
     .searchbar{
@@ -185,6 +186,7 @@
                       
                         transform: rotateY(180deg);
                       }
+                      
 
             } 
 

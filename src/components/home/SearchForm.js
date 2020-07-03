@@ -16,20 +16,22 @@ export class SearchForm extends Component {
     onChange = e => {
         console.log(e.target.value);
         this.props.searchMovie(e.target.value);
-        this.props.setLoading();
+        
     }
 
     onSubmit = e => {
         e.preventDefault();
         console.log(this.props.text);
+        this.props.setLoading();
         this.props.fetchMovies(this.props.text);
+        
     };
     render() {
         return (
             <div className="jumbotron mt-5 text-center">
                 <div className="container">
                 <img className="webSiteLogo"src={Logo} alt=""/>
-                <b id="emailHelp" className="form-text text-muted text-dark">World of movies and Series at a single Click</b>
+                <b id="emailHelp" className="form-text" style={{color: '#070b14'}}>World of movies and Series at a single Click</b>
                     <form id="searchForm" onSubmit={this.onSubmit}>
 
                         {/* <input type="text" className="form-control" placeholder="Come on Folks start Your Search" name="searchText"
