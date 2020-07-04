@@ -52,6 +52,18 @@
     text-decoration:none;
     background-color:#FF9900;
     }
+    .Soldier{
+      height: 71px;
+      width: 71px;
+      float: right;
+      display: flex;
+    justify-content: center;
+    align-items: right;
+    border-radius: 50%;
+    color:rgb(19, 16, 16);
+    text-decoration:none;
+    background-color:#FF9900;
+    }
 
     @media only screen and (max-device-width: 600px) {
 
@@ -104,6 +116,18 @@
                 height: 40px;
                 justify-content:'center';
                 position: relative;
+            }
+            .Soldier{
+              height: 71px;
+              width: 71px;
+              float: right;
+              display: flex;
+            justify-content: center;
+            align-items: right;
+            border-radius: 50%;
+            color:rgb(19, 16, 16);
+            text-decoration:none;
+            background-color:#FF9900;
             }
         }
 
